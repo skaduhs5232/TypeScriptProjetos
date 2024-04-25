@@ -22,5 +22,5 @@ if(tenhoSede2 === true && alguemPraPegar === true){
 console.log('fiquei com sede');
 
 }
-  
 }
+bebeAgua()
