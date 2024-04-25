@@ -1,7 +1,7 @@
 let tenhoSede2: boolean = true;
 let alguemPraPegar: boolean = false
 
-function bebeAgua(){
+function naoBebeAgua(){
   if(tenhoSede2 === true && alguemPraPegar === true){
     console.log("Bebi água!");
 }else{
@@ -10,4 +10,17 @@ function bebeAgua(){
 }
 }
 
-bebeAgua()
+naoBebeAgua()
+
+
+function bebeAgua() {
+alguemPraPegar = true
+
+if(tenhoSede2 === true && alguemPraPegar === true){
+  console.log("Bebi água!");
+}else{
+console.log('fiquei com sede');
+
+}
+  
+}
