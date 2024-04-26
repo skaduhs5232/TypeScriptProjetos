@@ -58,7 +58,7 @@ function main() {
         const [n, c, M, m, W] = input;
         const solution = knapsackSolver(n, c, M, m, W);
         if (solution) {
-            console.log("Solução:", solution.join(' '));
+            console.log("A solução é:", solution.join(' '));
         } else {
             console.log("Solução Inviável");
         }
